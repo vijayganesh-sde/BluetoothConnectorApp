@@ -24,8 +24,12 @@
             android:text="Discoverable" android:layout_marginLeft="120dp" android:id="@+id/discBtn" style="@style/Widget.AppCompat.Button.Colored"/>
     <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="Get Paired Devices" android:layout_marginLeft="100dp" android:id="@+id/gpdBtn" style="@style/Widget.AppCompat.Button.Colored"/>
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:textColor="@color/grey" android:textSize="10sp" android:id="@+id/pairedTv" />
-
+    <ScrollView android:layout_width="400dp" android:layout_height="wrap_content" android:scrollbars="vertical"
+                android:fillViewport="true">
+        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:textColor="@color/grey"
+                  android:textSize="19sp"
+                  android:id="@+id/pairedTv" android:layout_weight="1.0"/>
+    </ScrollView>
 
 
 </LinearLayout>

@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
                 val devices=badapter.bondedDevices
                 for(device in devices){
                     val dName=device.name
-                    pairedTv.append("\nDevice: $dName")
+                    pairedTv.append("\nDevice: $dName.\n")
                 }
             }
             else{
