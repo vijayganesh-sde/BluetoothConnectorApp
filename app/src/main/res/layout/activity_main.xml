@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:id="@+id/statusTv"
+            android:textColor="@color/black" android:textSize="25sp"/>
+    <ImageView android:layout_width="100dp" android:layout_height="100dp" android:id="@+id/bluetoothIv"
+               android:src="@drawable/ic_blue_dis" android:layout_marginLeft="140dp" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Turn On" android:layout_marginLeft="140dp" android:id="@+id/onBtn" style="@style/Widget.AppCompat.Button.Colored" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Turn Off" android:layout_marginLeft="140dp" android:id="@+id/offBtn" style="@style/Widget.AppCompat.Button.Colored"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Discoverable" android:layout_marginLeft="120dp" android:id="@+id/discBtn" style="@style/Widget.AppCompat.Button.Colored"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Get Paired Devices" android:layout_marginLeft="100dp" android:id="@+id/gpdBtn" style="@style/Widget.AppCompat.Button.Colored"/>
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:textColor="@color/grey" android:textSize="10sp" android:id="@+id/pairedTv" />
+
+
+
+</LinearLayout>
